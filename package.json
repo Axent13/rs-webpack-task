@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npx webpack serve --config webpack.config.dev.js",
     "build": "npx webpack --config webpack.config.prod.js",
-    "build:dev": "npx webpack --config webpack.config.dev.js"
+    "build:dev": "npx webpack --config webpack.config.dev.js",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "webpack",
@@ -21,6 +22,7 @@
     "eslint": "^8.42.0",
     "eslint-webpack-plugin": "^4.0.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.24",
